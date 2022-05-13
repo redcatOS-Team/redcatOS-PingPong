@@ -94,7 +94,6 @@ int main(){
 		ball.Draw();
 		leftPaddle.Draw();
 		rightPaddle.Draw();
-		DrawText("PROTOTYPE", 0, 0, 32, WHITE);
 		if (winnerText){
 			int textWidth = MeasureText(winnerText, 60);
 			DrawText(winnerText, GetScreenWidth() / 2 - textWidth / 2, GetScreenHeight() / 2 - 30, 60, WHITE);
